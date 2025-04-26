@@ -6,7 +6,7 @@ int getNextPrime(int begin);
 int getPrevPrime(int end);
 
 void getTwoValues(int begin, int end){
-    cout << "Enter start and end integers: ";
+    cout << "Enter start and end integers(begin < end): ";
     cin >> begin >> end;
     while (begin >= end) {
         cout << "start value must be less than end value!" << endl;
